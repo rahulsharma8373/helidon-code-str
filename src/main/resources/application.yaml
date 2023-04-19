@@ -1,0 +1,11 @@
+server:
+    port: 6005
+javax:
+    sql:
+        DataSource:
+            test:
+                dataSourceClassName: oracle.jdbc.pool.OracleDataSource
+                dataSource:
+                    url: jdbc:oracle:thin:@localHost:1521:orcl
+                    user: system
+                    password: rahul88090
